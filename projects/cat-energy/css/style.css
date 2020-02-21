@@ -950,11 +950,24 @@ iframe {
   display: flex;
   margin-bottom: 20px;
 }
-.advantage-img {
+.advantage-img-background {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 60px;
   height: 60px;
   background-color: #68b738;
   margin-right: 20px;
+}
+.advantage-img {
+  width: 26px;
+  height: 29px;
   background-image: url("../img/advantage-leaf@1x.png");
   background-repeat: no-repeat;
   background-position: center;
@@ -964,27 +977,33 @@ iframe {
     background-image: url("../img/advantage-leaf@2x.png");
   }
 }
-.how-it-works__item:nth-child(2) .advantage-img {
+.how-it-works__item:nth-child(2) .advantage-img-background .advantage-img {
+  width: 30px;
+  height: 31px;
   background-image: url("../img/advantage-powder@1x.png");
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
-  .how-it-works__item:nth-child(2) .advantage-img {
+  .how-it-works__item:nth-child(2) .advantage-img-background .advantage-img {
     background-image: url("../img/advantage-powder@2x.png");
   }
 }
-.how-it-works__item:nth-child(3) .advantage-img {
+.how-it-works__item:nth-child(3) .advantage-img-background .advantage-img {
+  width: 23px;
+  height: 30px;
   background-image: url("../img/advantage-dining@1x.png");
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
-  .how-it-works__item:nth-child(3) .advantage-img {
+  .how-it-works__item:nth-child(3) .advantage-img-background .advantage-img {
     background-image: url("../img/advantage-dining@2x.png");
   }
 }
-.how-it-works__item:nth-child(4) .advantage-img {
+.how-it-works__item:nth-child(4) .advantage-img-background .advantage-img {
+  width: 26px;
+  height: 31px;
   background-image: url("../img/advantage-clock@1x.png");
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
-  .how-it-works__item:nth-child(4) .advantage-img {
+  .how-it-works__item:nth-child(4) .advantage-img-background .advantage-img {
     background-image: url("../img/advantage-clock@2x.png");
   }
 }
@@ -1065,11 +1084,10 @@ iframe {
   .how-it-works__item:nth-child(4) .how-it-works__text br {
     display: inline;
   }
-  .advantage-img {
+  .advantage-img-background {
     width: 80px;
     height: 80px;
-    line-height: 100px;
-    margin-bottom: 30px;
+    margin-bottom: 35px;
   }
   .advantage__background-digital {
     position: absolute;
@@ -1111,9 +1129,6 @@ iframe {
   }
   .advantage__background-digital {
     right: 0;
-  }
-  .advantage-img {
-    margin-bottom: 35px;
   }
 }
 .example__wrapper {

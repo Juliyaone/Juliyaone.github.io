@@ -431,6 +431,7 @@ img {
 .project__link {
   text-decoration: none;
   cursor: pointer;
+  color: #111111;
 }
 .project__link:hover {
   text-decoration: underline;
@@ -449,6 +450,10 @@ img {
   overflow: hidden;
   -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
           box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+.project__img-wrapper:hover {
+  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 .project__img {
   display: block;

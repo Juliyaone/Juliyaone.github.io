@@ -42,7 +42,7 @@ var initComparisons = function () {
       if (clicked == 0) return false;
 /* Получить позицию курсора x: */
       var pos = getCursorPos(evt)
-      var gapLeft = 170;
+      var gapLeft = 185;
       var gapRight = 593;
 /* Предотвратить размещение ползунка за пределами изображения: */
       if (pos < gapLeft) {
