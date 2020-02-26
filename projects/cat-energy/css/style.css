@@ -54,6 +54,11 @@ img {
 iframe {
   border: none;
 }
+input[type='submit'] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
 .page-header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3063,7 +3068,6 @@ iframe {
   font-size: 16px;
   line-height: 20px;
   text-transform: uppercase;
-  -webkit-appearance: none;
   padding: 0;
 }
 .form__button-submit:focus {
