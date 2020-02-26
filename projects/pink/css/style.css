@@ -1847,7 +1847,7 @@ iframe {
 .contacts__wrapper-cart::before {
   position: absolute;
   content: "";
-  top: -2px;
+  top: -5px;
   width: 100%;
   height: 60px;
   background-image: url("../img/bg-triangle-white-footer.svg");
@@ -1918,7 +1918,7 @@ iframe {
   .contacts__wrapper-cart::before {
     position: absolute;
     content: "";
-    top: -2px;
+    top: -5px;
     width: 100%;
     height: 70px;
     background-image: url("../img/bg-triangle-white-footer.svg");
@@ -1943,7 +1943,7 @@ iframe {
   .contacts__wrapper-cart::before {
     width: 100%;
     height: 80px;
-    top: -2px;
+    top: -5px;
     background-size: 100% 80px;
   }
   .contacts__title-wrapper {
