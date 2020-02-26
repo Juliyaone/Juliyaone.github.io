@@ -361,6 +361,9 @@ img {
   max-width: 100%;
   height: auto;
 }
+iframe {
+  border: none;
+}
 .page-main {
   position: relative;
   height: 100%;
@@ -1844,7 +1847,7 @@ img {
 .contacts__wrapper-cart::before {
   position: absolute;
   content: "";
-  top: 0;
+  top: -2px;
   width: 100%;
   height: 60px;
   background-image: url("../img/bg-triangle-white-footer.svg");
@@ -1915,7 +1918,7 @@ img {
   .contacts__wrapper-cart::before {
     position: absolute;
     content: "";
-    top: 0;
+    top: -2px;
     width: 100%;
     height: 70px;
     background-image: url("../img/bg-triangle-white-footer.svg");
@@ -1940,7 +1943,7 @@ img {
   .contacts__wrapper-cart::before {
     width: 100%;
     height: 80px;
-    top: 0;
+    top: -2px;
     background-size: 100% 80px;
   }
   .contacts__title-wrapper {
