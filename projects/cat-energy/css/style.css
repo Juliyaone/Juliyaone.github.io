@@ -974,7 +974,10 @@ iframe {
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
   .advantage-img {
+    width: 50px;
+    height: 50px;
     background-image: url("../img/advantage-leaf@2x.png");
+    background-size: cover;
   }
 }
 .how-it-works__item:nth-child(2) .advantage-img-background .advantage-img {
@@ -984,7 +987,10 @@ iframe {
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
   .how-it-works__item:nth-child(2) .advantage-img-background .advantage-img {
+    width: 50px;
+    height: 50px;
     background-image: url("../img/advantage-powder@2x.png");
+    background-size: cover;
   }
 }
 .how-it-works__item:nth-child(3) .advantage-img-background .advantage-img {
@@ -994,7 +1000,10 @@ iframe {
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
   .how-it-works__item:nth-child(3) .advantage-img-background .advantage-img {
+    width: 50px;
+    height: 50px;
     background-image: url("../img/advantage-dining@2x.png");
+    background-size: cover;
   }
 }
 .how-it-works__item:nth-child(4) .advantage-img-background .advantage-img {
@@ -1004,7 +1013,10 @@ iframe {
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
   .how-it-works__item:nth-child(4) .advantage-img-background .advantage-img {
+    width: 50px;
+    height: 50px;
     background-image: url("../img/advantage-clock@2x.png");
+    background-size: cover;
   }
 }
 .how-it-works__text {
