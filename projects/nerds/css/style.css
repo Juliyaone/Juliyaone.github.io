@@ -839,7 +839,7 @@ img {
 	margin: auto;
 	background: url("../img/img-map.jpg") no-repeat center top;
 	min-height: 416px;
-	width: 1440px;
+	width: 100%;
 	border: 1px solid transparent;
 	margin-bottom: 70px;
 	z-index: 4;
