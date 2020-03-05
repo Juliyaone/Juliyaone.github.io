@@ -514,6 +514,27 @@ img {
   text-decoration: none;
   color: #111111;
 }
+.contact__item a:focus {
+  outline: none;
+}
+.wrapper-gmail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  width: 210px;
+  height: 32px;
+  text-decoration: none;
+  color: #111111;
+}
 .contact__item p {
   font-weight: 600;
   line-height: 32px;
