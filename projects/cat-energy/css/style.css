@@ -2664,14 +2664,12 @@ input[type='submit'] {
   padding: 0;
   padding-left: 15px;
   margin: 0;
-}
-.form__item input[value] {
   color: #444444;
   text-transform: uppercase;
   font-size: 16px;
+  line-height: 16px;
   font-family: "Oswald", "Arial", sans-serif;
   font-weight: 400;
-  padding-left: 15px;
 }
 .form__item input:hover {
   border: 1px solid #cdcdcd;
@@ -2842,6 +2840,12 @@ input[type='submit'] {
   height: 40px;
   border: 1px solid #e6e6e6;
   background-color: transparent;
+  color: #444;
+  line-height: 16px;
+  font-family: "Oswald", "Arial", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 16px;
   padding: 0;
   padding-left: 15px;
   margin: 0;
@@ -2912,6 +2916,12 @@ input[type='submit'] {
   width: 255px;
   min-height: 125px;
   border: 1px solid #e6e6e6;
+  color: #444;
+  line-height: 20px;
+  font-family: "Oswald", "Arial", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 16px;
   padding: 0;
   padding: 15px;
   margin: 0;
