@@ -3160,6 +3160,7 @@ iframe {
 }
 .form-checkbox__label {
   position: relative;
+  min-width: 200px;
   font-size: 18px;
   line-height: 40px;
   font-weight: 600;
@@ -4562,7 +4563,7 @@ iframe {
 }
 .photo-reviews__panorama-blockquote-wrapper {
   width: 280px;
-  height: 192px;
+  min-height: 192px;
   background-color: #f2f2f2;
   margin: auto;
   padding: 0;
@@ -4570,12 +4571,13 @@ iframe {
 }
 .photo-reviews__panorama-blockquote {
   width: 240px;
-  height: 174px;
+  min-height: 174px;
   margin: 0;
   padding: 0;
   padding-top: 17px;
   padding-left: 20px;
   padding-right: 20px;
+  padding-bottom: 25px;
 }
 .photo-reviews__panorama-user {
   font-size: 14px;
