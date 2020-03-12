@@ -117,8 +117,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  flex-wrap: wrap;
-  width: 210px;
+  flex-wrap: nowrap;
   min-height: 80px;
   list-style: none;
   padding: 0;
@@ -159,6 +158,17 @@
   color: #111111;
 }
 
+.wrapper-telegram {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  width: 210px;
+  height: 32px;
+  text-decoration: none;
+  color: #111111;
+}
+
 .contact__item p {
   font-weight: 600;
   line-height: 32px;
@@ -189,7 +199,7 @@
   .contact__list {
     flex-direction: row;
     justify-content: space-between;
-    width: 500px;
+    width: 660px;
   }
 
   .contact__item {
