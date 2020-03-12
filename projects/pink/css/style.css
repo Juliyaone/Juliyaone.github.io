@@ -452,8 +452,8 @@ iframe {
 @media (min-width: 960px) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 960px) and (min-resolution: 144dpi), (min-width: 960px) and (min-resolution: 1.5dppx) {
   .page-header__background-image {
     background-image: url("../img/bg-back-desktop@2x.jpg");
-    background-size: 960px auto;
-    background-position: center 0;
+    background-size: cover;
+    background-position: center;
   }
 }
 .download {
