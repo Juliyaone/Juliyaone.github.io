@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="17" height="13" viewBox="0 0 17 13">
+  <defs></defs>
+  <g id="mail.svg" transform="translate(-643 -2209)">
+    <g id="mail.svg-2" data-name="mail.svg" transform="translate(643 2209)">
+      <path id="Path_1" data-name="Path 1" d="M15.6,11.6H1.4V5.8H0V13H17V5.8H15.6ZM0,0V2.3L8.5,9.4,17,2.3V0ZM15.6,1.6,8.5,7.5,1.4,1.6V1.4H15.6Z"/>
+    </g>
+    <path id="Color_Overlay" data-name="Color Overlay" d="M643,2222v-7.2h1.4v5.8h14.2v-5.8H660v7.2Zm0-10.7V2209h17v2.3l-8.5,7.1Zm1.4-.7,7.1,5.9,7.1-5.9v-.2H644.4Z"/>
+  </g>
+</svg>
