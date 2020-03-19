@@ -378,8 +378,10 @@ img {
   width: 100%;
   list-style: none;
   padding: 0;
+  padding-inline-start: 0; 
   margin: 0;
 }
+
 .project__technology-list {
   list-style-type: disc;
 }
@@ -486,11 +488,12 @@ img {
   min-height: 80px;
   list-style: none;
   padding: 0;
+  padding-inline-start: 0;
+  margin: 0;
   margin: 0 auto;
 }
 .contact__item {
   position: relative;
-  width: 210px;
   height: 32px;
   background-color: #eeeeee;
   margin-bottom: 20px;
@@ -508,7 +511,6 @@ img {
           justify-content: flex-start;
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
-  width: 210px;
   height: 32px;
   text-decoration: none;
   color: #111111;
@@ -529,7 +531,6 @@ img {
           justify-content: flex-start;
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
-  width: 210px;
   height: 32px;
   text-decoration: none;
   color: #111111;
@@ -569,6 +570,8 @@ img {
         -ms-flex-pack: justify;
             justify-content: space-between;
     width: 660px;
+    padding: 0;
+    padding-inline-start: 0;
   }
   .contact__item {
     margin-bottom: 0;
