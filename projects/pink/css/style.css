@@ -3157,7 +3157,6 @@ iframe {
   border: none;
   margin: 0;
   padding: 0;
-  opacity: 0;
 }
 .form-checkbox__label {
   position: relative;
@@ -3330,7 +3329,6 @@ iframe {
   border: none;
   margin: 0;
   padding: 0;
-  opacity: 0;
 }
 .form-radio__label::before {
   content: "";
