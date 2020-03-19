@@ -375,7 +375,6 @@ img {
   -webkit-box-direction: reverse;
       -ms-flex-direction: column-reverse;
           flex-direction: column-reverse;
-  width: 100%;
   list-style: none;
   padding: 0;
   padding-inline-start: 0; 
@@ -569,7 +568,6 @@ img {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    width: 660px;
     padding: 0;
     padding-inline-start: 0;
   }
