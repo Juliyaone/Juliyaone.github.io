@@ -2746,7 +2746,6 @@ textarea {
   color: #444444;
   text-transform: uppercase;
   font-size: 16px;
-  line-height: 18px;
   font-family: "Oswald", "Arial", sans-serif;
   font-weight: 400;
   border: 1px solid #e6e6e6;
@@ -3645,7 +3644,7 @@ textarea {
   width: 280px;
   height: 240px;
   overflow: hidden;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 .slider__img-inner {
   display: -webkit-box;
