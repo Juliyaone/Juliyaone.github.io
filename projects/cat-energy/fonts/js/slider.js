@@ -13,8 +13,15 @@ var initComparisons = function () {
     img.parentElement.insertBefore(sliderImg, img);
 
 /* Поместите ползунок посередине: */
-    sliderImg.style.top = h - 95 + 'px';
-    sliderImg.style.left = (widthImg / 2) - (sliderImg.offsetWidth / 2) + 'px';
+    var sliderInner = document.querySelector(".slider__slides");
+    var sliderControls = document.querySelector(".slider__controls");
+
+    var sliderInnerWidth = sliderInner.offsetWidth;
+    sliderControls = window.getComputedStyle(sliderControls).top;
+
+    sliderImg.style.top =  sliderControls;
+    sliderImg.style.left = (sliderInnerWidth / 2) - (sliderImg.offsetWidth / 2) + 'px';
+
 /* Выполнить функцию при нажатии кнопки мыши: */
     var slideReady = function (evt) {
 /* Предотвращение любых других действий, которые могут возникнуть при перемещении по изображению: */
@@ -42,14 +49,14 @@ var initComparisons = function () {
       if (clicked == 0) return false;
 /* Получить позицию курсора x: */
       var pos = getCursorPos(evt)
-      var gapLeft = 185;
-      var gapRight = 593;
+
+
 /* Предотвратить размещение ползунка за пределами изображения: */
-      if (pos < gapLeft) {
-        pos = gapLeft;
+      if (pos < 165) {
+        pos = 165;
       }
-      if (pos > gapRight) {
-        pos = gapRight;
+      if (pos > 580) {
+        pos = 580;
       }
 /* Выполнить функцию, которая изменит размер наложенного изображения в соответствии с курсором: */
       slide(pos);
