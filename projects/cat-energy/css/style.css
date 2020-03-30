@@ -58,10 +58,19 @@ h1 {
 }
 img {
   max-width: 100%;
-  height: auto;
 }
 iframe {
   border: none;
+}
+input[type='submit'] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+input[type='submit'] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 .page-header {
   display: -webkit-box;
@@ -3001,6 +3010,7 @@ iframe {
   font-family: "Oswald", "Arial", sans-serif;
   font-weight: 400;
   padding: 15px;
+  padding-right: 0;
   margin: 0 auto;
   margin-top: 35px;
 }
