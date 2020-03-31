@@ -568,6 +568,7 @@ img {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+    max-width: 760px; 
     padding: 0;
     padding-inline-start: 0;
   }
