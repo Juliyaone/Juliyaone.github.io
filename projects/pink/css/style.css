@@ -364,6 +364,21 @@ img {
 iframe {
   border: none;
 }
+input[type='submit'] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0;
+}
+input[type='text'],
+input[type='email'],
+input[type='tel'],
+textarea {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0;
+}
 .page-main {
   position: relative;
   height: 100%;
