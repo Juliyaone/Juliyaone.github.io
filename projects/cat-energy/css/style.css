@@ -62,19 +62,19 @@ img {
 iframe {
   border: none;
 }
-input[type='submit'] {
+input[type="submit"] {
   -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
+     -moz-appearance: none;
+          appearance: none;
   border-radius: 0;
 }
-input[type='text'],
-input[type='email'],
-input[type='tel'],
+input[type="text"],
+input[type="email"],
+input[type="tel"],
 textarea {
   -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
+     -moz-appearance: none;
+          appearance: none;
   border-radius: 0;
 }
 .page-header {
@@ -1391,7 +1391,6 @@ textarea {
     width: 440px;
     padding-left: 0;
     padding-right: 0;
-    margin-right: 10px;
     margin: 0 auto;
   }
   .example__wrapper-flex:nth-child(2) {
@@ -2202,7 +2201,6 @@ textarea {
   }
   .product__item {
     width: 250px;
-    margin-bottom: 0;
     margin-bottom: 15px;
     margin-top: 120px;
   }
@@ -2762,12 +2760,11 @@ textarea {
   border: 2px solid #444444;
 }
 .form__item input:invalid {
-  border: 2px solid #ff8282;
+  border-color: #ff8282;
 }
 .form__radio {
   padding: 0;
   margin: 0;
-  border: none;
   margin-bottom: 30px;
   border: 1px solid #ededed;
 }
@@ -2991,7 +2988,7 @@ textarea {
   width: 248px;
   min-height: 140px;
   border: 1px solid #e6e6e6;
-  color: #444;
+  color: #444444;
   text-transform: uppercase;
   font-size: 16px;
   font-family: "Oswald", "Arial", sans-serif;
@@ -3303,7 +3300,7 @@ textarea {
     height: 50px;
   }
   .form__contacts-item input {
-    color: #444;
+    color: #444444;
     text-transform: uppercase;
     font-size: 20px;
     font-family: "Oswald", "Arial", sans-serif;
