@@ -4,8 +4,8 @@
 
   var TIMEOUT = 10000;
   var STATUS_OK = 200;
-  var DATA_URL = 'https://js.dump.academy/keksobooking/data';
-  var SEND_URL = 'https://js.dump.academy/keksobooking';
+  var DATA_URL = 'https://javascript.pages.academy/keksobooking/data';
+  var SEND_URL = 'https://javascript.pages.academy/keksobooking';
 
   window.backend = {};
 
