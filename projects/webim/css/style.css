@@ -412,6 +412,30 @@ img {
     min-height: 100px;
   }
 }
+.chat {
+  position: fixed;
+  bottom: 1px;
+  right: 34px;
+  z-index: 5;
+}
+.chat-wrapper {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #06d6d6;
+  border: 1px solid #0f68e2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: 0.5px 1px 3px 0;
+          box-shadow: 0.5px 1px 3px 0;
+}
 .container {
   padding-left: 20px;
   padding-right: 20px;
