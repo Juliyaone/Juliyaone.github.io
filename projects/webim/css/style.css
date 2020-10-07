@@ -461,6 +461,18 @@ img {
   letter-spacing: 1px;
   margin-bottom: 33px;
 }
+.installation__header--hidden {
+  opacity: 0;
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+}
+.installation__header--active {
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+  -webkit-transform: translateX(0%);
+          transform: translateX(0%);
+  opacity: 1;
+}
 .installation__header-2 {
   margin-bottom: 17px;
   letter-spacing: 0.5px;
