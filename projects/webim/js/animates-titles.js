@@ -18,9 +18,6 @@ function scrollHendler() {
 
       titles[i].classList.add('installation__header--active');
       titles[i].classList.remove('installation__header--hidden');
-    } else {
-      titles[i].classList.remove('installation__header--active');
-      titles[i].classList.add('installation__header--hidden');
     }
   });
 };
