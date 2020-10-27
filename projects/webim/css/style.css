@@ -5,8 +5,7 @@ html {
   height: 100%;
 }
 body {
-  min-width: 320px;
-  width: 100%;
+  min-width: 280px;
   height: 100%;
   font-family: 'Ubuntu', sans-serif;
   font-weight: 400;
@@ -364,6 +363,7 @@ header {
   z-index: 10;
   -ms-flex-preferred-size: auto;
       flex-basis: auto;
+  owerflow-x: hidden;
 }
 .page-header__logo-toogle-wrapper {
   display: -webkit-box;
